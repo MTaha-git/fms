@@ -1,0 +1,55 @@
+
+/* page.css */
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    width: 80vw;
+  }
+  
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logout-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    color: #ff4d4f;
+    background-color: #fff;
+    border: 1px solid #ff4d4f;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #ffecec;
+  }
+  
+  .logout-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .content-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .file-upload-list {
+    background-color: #f9f9f9;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
